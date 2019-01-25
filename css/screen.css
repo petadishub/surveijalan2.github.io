@@ -1,0 +1,49 @@
+html { height: 100% }
+body { height: 100%; margin: 0; padding: 0;}
+#map {
+	height: 100%
+}
+
+#progress {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    left: 400px;
+    top: 300px;
+    width: 200px;
+    height: 20px;
+    margin-top: -20px;
+    margin-left: -100px;
+    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+#progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #76A6FC;
+    border-radius: 4px;
+}
+
+.p {
+	margin: 0;
+	padding: 0;
+}
+
+#judul {
+	position: absolute;
+	z-index: 400;
+    left: 50%;
+	transform: translateX(-50%); 
+    top: 9px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: 0.5px solid #555;
+    background-color: #fafafa;
+    padding: 0;
+    border-radius: 6px;
+    color: #555;
+    width: 12em;
+}
